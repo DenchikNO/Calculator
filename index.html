@@ -17,39 +17,34 @@
       <tr>
         <td><input type="button" value="C" onclick="delete_all()" /></td>
         <td>
-          <input
-            type="button"
-            value="÷"
-            onclick="set('÷')"
-            class="division"
-          />
+          <input type="button" value="÷" onclick="set('/')" class="division" />
         </td>
-        <td><input type="button" value="X" /></td>
-        <td><input type="button" class="delete" /></td>
+        <td><input type="button" value="X" onclick="set('*')" /></td>
+        <td><input type="button" class="delete" onclick="delete_n()"/></td>
       </tr>
       <tr>
         <td><input type="button" value="7" onclick="set(7)" /></td>
         <td><input type="button" value="8" onclick="set(8)" /></td>
         <td><input type="button" value="9" onclick="set(9)" /></td>
-        <td><input type="button" value="-" /></td>
+        <td><input type="button" value="-" onclick="set('-')" /></td>
       </tr>
       <tr>
         <td><input type="button" value="4" onclick="set(4)" /></td>
         <td><input type="button" value="5" onclick="set(5)" /></td>
         <td><input type="button" value="6" onclick="set(6)" /></td>
-        <td><input type="button" value="+" /></td>
+        <td><input type="button" value="+" onclick="set('+')" /></td>
       </tr>
       <tr>
         <td><input type="button" value="1" onclick="set(1)" /></td>
         <td><input type="button" value="2" onclick="set(2)" /></td>
         <td><input type="button" value="3" onclick="set(3)" /></td>
       </tr>
-      <tr>
+      <td>
         <td><input type="button" value="0" onclick="set(0)" /></td>
-        <td><input type="button" value="." /></td>
-        <td><input type="button" value="+/-" /></td>
-        <td><input type="button" value="=" /></td>
-      </tr>
+        <td><input type="button" value="." onclick="set('.')" /></td>
+        <td><input type="button" value="+/-" onclick="reverse()"/></td>
+        <td><input type="button" value="=" onclick="equal()"/></td>
+      </td>
     </table>
 
     <script src="script.js"></script>
