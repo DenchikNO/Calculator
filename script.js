@@ -17,7 +17,3 @@ function delete_n() {
 function reverse() {
   document.form.textview.value = -document.form.textview.value;
 }
-// let x = document.getElementsByTagName('input');
-// x.onclick = function () {
-//   x.style.borderBottom = "none";
-// }

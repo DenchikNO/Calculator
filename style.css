@@ -2,10 +2,10 @@
   font-size: 20px;
   border: none;
   padding: 10px;
-  font-size: 20px;
+  background-color: white;
 }
 .delete {
-  background-image: url(delete.png);
+  background-image: url(delete.jpg);
   background-size: cover;
   background-position: center;
   width: 70px;
@@ -19,13 +19,21 @@
   padding: 10px;
   font-size: 20px;
   margin: 100px 0px 0px 100px;
+  outline: none;
+  caret-color: transparent !important;
+  cursor: none;
 }
 .button {
   border: none;
   padding: 10px;
   font-size: 20px;
+  margin: 5px;
+  background-color: white;
 }
-table{
-    border-collapse: collapse;
-    margin: 0px 100px;
+table {
+  border-collapse: collapse;
+  margin: 0px 100px;
+}
+input {
+  outline-color: #4dd1e0;
 }
